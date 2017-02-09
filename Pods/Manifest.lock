@@ -1,0 +1,51 @@
+PODS:
+  - AsyncDisplayKit (2.0.1):
+    - AsyncDisplayKit/PINRemoteImage (= 2.0.1)
+  - AsyncDisplayKit/Core (2.0.1)
+  - AsyncDisplayKit/PINRemoteImage (2.0.1):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.7)
+    - PINRemoteImage/PINCache
+  - FLAnimatedImage (1.0.12)
+  - PINCache (3.0.1-beta.2):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.2)
+    - PINCache/Core (= 3.0.1-beta.2)
+  - PINCache/Arc-exception-safe (3.0.1-beta.2):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.2)
+  - PINRemoteImage (3.0.0-beta.7):
+    - PINRemoteImage/FLAnimatedImage (= 3.0.0-beta.7)
+    - PINRemoteImage/PINCache (= 3.0.0-beta.7)
+  - PINRemoteImage/Core (3.0.0-beta.7)
+  - PINRemoteImage/FLAnimatedImage (3.0.0-beta.7):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - PINRemoteImage/iOS (3.0.0-beta.7):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.7):
+    - PINCache (= 3.0.1-beta.2)
+    - PINRemoteImage/Core
+
+DEPENDENCIES:
+  - AsyncDisplayKit (>= 2.0)
+  - PINRemoteImage (from `https://github.com/pinterest/PINRemoteImage.git`, commit `50a75bf`)
+
+EXTERNAL SOURCES:
+  PINRemoteImage:
+    :commit: 50a75bf
+    :git: https://github.com/pinterest/PINRemoteImage.git
+
+CHECKOUT OPTIONS:
+  PINRemoteImage:
+    :commit: 50a75bf
+    :git: https://github.com/pinterest/PINRemoteImage.git
+
+SPEC CHECKSUMS:
+  AsyncDisplayKit: 6c5a21d9ab30f3f48e877a67d44e3e19c1724f91
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  PINCache: 6d273a6e0754bd26e3f12a38a90dde73cc6a42b2
+  PINRemoteImage: ff63baf185088530db6cfa41cb665e2b5126b5c3
+
+PODFILE CHECKSUM: 1799b71c31744433a09eb254efd6476900bbfc38
+
+COCOAPODS: 1.2.0.beta.1
